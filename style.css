@@ -1,1 +1,47 @@
+header {
+    background-color: red;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
+}
+
+button {
+    background-color: transparent;
+    color: grey;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: indigo;
+    height: 92vh;
+}
+
+h1,
+h3 {
+    text-align: center;
+    font-family: monospace;
+    color: blue;
+}
+
+.info {
+    height: 70vh;
+    background-color: darkcyan;
+    display: flex;
+}
+
+.destra,
+.sinistra {
+    width: 50%;
+}
+
+.immagine {
+    width: 50%;
+}
