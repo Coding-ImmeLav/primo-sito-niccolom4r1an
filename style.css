@@ -1,47 +1,118 @@
-header {
-    background-color: red;
-    height: 8vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+body {
+    margin: 0;
 }
 
-button {
-    background-color: transparent;
-    color: grey;
-    border: none;
-    font-size: 1.2em;
-    font-weight: bold;
-    font-family: monospace;
+header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+}
+
+/* creo le classi per i font  */
+.boldonse {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .hero {
+    background-color: cornflowerblue;
+    height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: indigo;
-    height: 92vh;
-}
-
-h1,
-h3 {
     text-align: center;
-    font-family: monospace;
-    color: blue;
+    color: white;   
 }
 
-.info {
-    height: 70vh;
-    background-color: darkcyan;
+ul {
+    list-style: none;
+}
+
+li {
+   padding-top: 0.5%;
+   padding-bottom: 0.5%;
+}
+
+#menu {
+    /* all'inizio non si vede  */
+    display: none;
+}
+
+footer {
+    height: 13vh;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.destra,
-.sinistra {
-    width: 50%;
+.logoScuola {
+    height: 13vh;
+    display: flex;
+    align-items: center;
 }
 
-.immagine {
-    width: 50%;
+.imgLogo {
+    height: 80%;
 }
+
+.info > a {
+    text-decoration: none;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+/* seleziono i tre div dentro al footer  */
+footer > div {
+    /* specifico la larghezza dei tre div nel footer e li metto in mezzo  */
+    width: 33.33333%;
+    display: flex;
+    justify-content: center;
+}
+
+.inizio {
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore {
+    width: 40%;
+    background-color: blue;
+    height: 45%;
+    margin: 30xp;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenitore:hover {
+    background-color: azure;
+    transition: 0.3s;
+}
+
+.curriculum {
+    width: 80%;
+    padding: 20xp;
+    border: 1xp solid black;
+}
+
+.intestazione {
+    text-align: center;
+}
+
